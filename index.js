@@ -7,7 +7,7 @@ if (process.env.NODE_ENV === "production") {
 }
 
 app.get("/api", (req, res) => {
-  res.send("Hello World!");
+  res.send("express Hello World!");
 });
 
 app.get("/", (req, res) => {
